@@ -1,0 +1,36 @@
+@media (max-width: 1670px) {
+    .container {
+        padding: 0 10%;
+    }
+
+    .main__container {
+        padding: 0 5%;
+        margin: 0 5%;
+        padding-bottom: 100px;
+    }
+
+    .categories__image {
+        width: 100%;
+    }
+
+    .categories__card--top {
+        width: 500px;
+    }
+
+    .categories__card--small {
+        width: 300px;
+    }
+
+    .discount__container {
+        padding-bottom: 80px;
+        margin: 0;
+        background-position: right bottom;
+        background-position-x: 45°;
+    }
+
+    .call__container {
+        margin: 0;
+        padding-bottom: 80px;
+    }
+
+}
