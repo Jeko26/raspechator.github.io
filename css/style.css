@@ -120,6 +120,11 @@
     display: flex;
 }
 
+.header__content-box {
+    display: flex;
+    margin-left: 30px;
+}
+
 .header__image-box {
     width: 150px;
     display: flex;
@@ -297,7 +302,7 @@
 
 .call__input {
     background-color: rgba(23, 23, 23, 0.93);
-    border: 1px solid white;
+    border: 1px solid gray;
     border-radius: 30px;
     padding-left: 30px;
     color: white;
@@ -420,6 +425,10 @@
 
 .swiper__ico {
     margin-left: 5px;
+}
+
+.swiper__mini-title-low {
+    margin: 0;
 }
 
 .rewiews {
@@ -616,4 +625,41 @@
 
 .footer__link {
     color: #FFFFFF;
+}
+
+.categories__descr--link {
+    text-decoration: none;
+}
+
+/* hover */
+
+.header__link:hover, .header__number:hover {
+    color: #F2590C;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    cursor: pointer;
+}
+
+.header__main:hover {
+    cursor: pointer;
+}
+
+.header__ico:hover, .footer__image:hover {
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:
+        rgba(154, 64, 0, 1);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    color: #141414;
+}
+
+.footer__descr:hover {
+    text-decoration: underline;
+    color: gray;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    cursor: pointer;
 }
